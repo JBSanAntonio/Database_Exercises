@@ -6,7 +6,7 @@
  	id INT UNSIGNED NOT NULL AUTO_INCREMENT,
  	artist VARCHAR(100),
  	name VARCHAR(100),
- 	release_date YEAR,
+ 	release_date YEAR NOT NULL,
  	sales_in_millions FLOAT(15,2) NOT NULL,
  	genre char(100) NOT NULL,
  	PRIMARY KEY(id)
