@@ -4,7 +4,7 @@ TRUNCATE albums;
 
 INSERT INTO albums (artist, name, sales_in_millions, release_date, genre)
 VALUES 
-('AC/DC', 'Back in Black', '25.9', '1980', 'Hard rock'),
+('AC/DC', 'Back in Black', '25.9', '1980', 'Hard Rock'),
 ('Bee Gees', 'Saturday Night Fever', '19', '1977', 'Disco'),
 ('Eagles', 'Their Greatest Hits', '32.2', '1976', 'Rock'),
 ('Fleetwood Mac', 'Rumours', '27.9', '1977', 'Soft Rock'),
