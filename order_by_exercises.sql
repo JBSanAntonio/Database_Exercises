@@ -6,9 +6,10 @@ WHERE (first_name = 'Irena'
 	AND gender = 'm'
 ORDER BY last_name, first_name;
 
-SELECT first_name, last_name AS full_name
+SELECT *
 FROM employees
-WHERE last_name LIKE 'e%e';
+WHERE last_name LIKE 'e%e'
+ORDER BY emp_no;
 
 SELECT *
 FROM employees
