@@ -4,7 +4,7 @@ WHERE (first_name = 'Irena'
 	OR first_name = 'Vidya'
 	OR first_name = 'Maya')
 	AND gender = 'm'
-ORDER BY first_name,last_name;
+ORDER BY last_name, first_name;
 
 SELECT first_name, last_name AS full_name
 FROM employees
