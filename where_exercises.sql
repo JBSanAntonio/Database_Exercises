@@ -1,6 +1,9 @@
-SELECT concat(first_name, ‘ ‘, last_name) AS full_name
+SELECT first_name, last_name AS full_name
 FROM employees
-WHERE first_name IN ('Irena', 'Vidya', 'Maya');
+WHERE (first_name = 'Irena'
+	OR first_name = 'Vidya'
+	OR first_name = 'Maya')
+	AND gender = 'm';
 
 SELECT concat(first_name, ‘ ‘, last_name) AS full_name
 WHERE last_name LIKE 'E%';
